@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>1.0.0</version>
+    <title>RESTfulFoundation.Server</title>
+    <authors>dru@druware.com</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <readme>readme.md</readme>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/Druware/RESTfulFoundation.Server</projectUrl>
+    <description>
+        A collection of convenience classes to ease in the development of
+        RESTful WebAPI interfaces ( specifically adding a simple Result object
+        for Success/Fail operations, and a Pageable ListResult for handling
+        arrays )
+    </description>
+    <releaseNotes>
+        Initial migration from out of an internal library and into something
+        usable by external developers and tools.  
+    </releaseNotes>
+    <copyright>Copyright 2022, 2023 Druware Software Designs, All Rights Reserved</copyright>
+    <tags>.net6 webapi</tags>
+  </metadata>
+  <files>
+    <file src="LICENSE.txt" target="" />
+    <file src="README.md" target="" />
+  </files>
+</package>
