@@ -7,7 +7,7 @@
     <authors>dru@druware.com</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="file">LICENSE.txt</license>
-    <readme>readme.md</readme>
+    <readme>README.md</readme>
     <!-- <icon>icon.png</icon> -->
     <projectUrl>https://github.com/Druware/RESTfulFoundation.Server</projectUrl>
     <description>
@@ -24,7 +24,7 @@
     <tags>.net6 webapi</tags>
   </metadata>
   <files>
-    <file src="LICENSE.txt" target="" />
-    <file src="README.md" target="" />
+    <file src=".\LICENSE.txt" target="" />
+    <file src=".\README.md" target="" />
   </files>
 </package>
