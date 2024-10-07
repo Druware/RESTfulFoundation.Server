@@ -9,7 +9,7 @@ public class Result
         Result result = new()
         {
             Succeeded = false,
-            Info = info == null ? new() : info
+            Info = info ?? new List<string>()
         };
         return result;
     }
@@ -19,10 +19,21 @@ public class Result
         Result result = new()
         {
             Succeeded = false,
-            Info = new()
+            Info = new List<string>()
         };
         if (info != null)
             result.Info!.Add(info);
+        return result;
+    }
+    
+    public static Result Error(
+        object? entity = null)
+    {
+        Result result = new()
+        {
+            Succeeded = false,
+            Entity = entity
+        };
         return result;
     }
 
@@ -32,7 +43,7 @@ public class Result
         Result result = new()
         {
             Succeeded = true,
-            Info = info == null ? new() : info
+            Info = info ?? new List<string>()
         };
         return result;
     }
@@ -42,10 +53,21 @@ public class Result
         Result result = new()
         {
             Succeeded = true,
-            Info = new()
+            Info = new List<string>()
         };
         if (info != null)
             result.Info!.Add(info);
+        return result;
+    }
+    
+    public static Result Ok(
+        object? entity = null)
+    {
+        Result result = new()
+        {
+            Succeeded = true,
+            Entity = entity
+        };
         return result;
     }
 
@@ -54,5 +76,8 @@ public class Result
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public List<string>? Info { get; set; } = null;
+    
+    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+    public object? Entity { get; set; } = null;
 }
 

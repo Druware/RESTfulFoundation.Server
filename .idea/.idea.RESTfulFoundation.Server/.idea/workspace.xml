@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e4a502a0-6154-4af3-a1a1-edfde6e2a8bc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RESTfulFoundation.Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RESTfulFoundation.Server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTfulFoundation.Server.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RESTfulFoundation.Server.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTfulFoundation.Server.nuspec" beforeDir="false" afterPath="$PROJECT_DIR$/RESTfulFoundation.Server.nuspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Result.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +22,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2XG7r95sIyhZWaOUu1Vx3whSTKU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,21 +33,44 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Publish to folder.Publish RESTfulFoundation.Server to folder.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Shell Script.Build NuGet Package.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "/Users/arsatori/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
-      "/Users/arsatori/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache",
-      "/Users/arsatori/.local/share/Symbols/src"
+      "/Users/arsatori/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
+      "/Users/arsatori/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
+      "/Users/arsatori/Library/Application Support/Symbols/src"
     ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Build NuGet Package" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="nuget" />
+      <option name="SCRIPT_OPTIONS" value="pack -OutputDirectory pub -Properties Configuration=Release" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,12 +80,16 @@
       <option name="presentableId" value="Default" />
       <updated>1698243758785</updated>
       <workItem from="1698243759849" duration="20000" />
+      <workItem from="1713290890717" duration="118000" />
+      <workItem from="1725997327204" duration="29000" />
+      <workItem from="1727712462452" duration="2948000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
